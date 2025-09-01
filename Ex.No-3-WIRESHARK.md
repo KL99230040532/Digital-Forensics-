@@ -32,16 +32,17 @@
 
 - Enter any dummy credentials. For this example, we'll use:
 
-   Username: testuser
+   Username: darling
 
-   Password: password123
+   Password: measatest143
 
 - Click the login button. The login will fail, but the data has already been sent across the network.
 
  <br>
    <br>
   <p align="center">
-<img width="1559" height="963" alt="image" src="https://github.com/user-attachments/assets/1a5dd68e-d041-414c-86ec-eef4794d0e46" />
+<img width="1916" height="905" alt="image" src="https://github.com/user-attachments/assets/bf27fed5-fe0c-47d5-91e2-f4e7dbea9685" />
+
  </p>
   
   
