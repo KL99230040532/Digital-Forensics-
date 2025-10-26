@@ -62,7 +62,7 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ### 🔍 Identify File System Type
 
 ```bash
-.\fsstat.exe -o 63 "C:\Users\knsha\Downloads\4Dell Latitude CPi.E01" 
+.\fsstat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
 ```
 🧾  
 ![WhatsApp Image 2025-10-26 at 22 57 05_2472a29b](https://github.com/user-attachments/assets/66b80eaa-1bd8-48bc-b82e-6f601dcfce8b)
@@ -74,7 +74,8 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ### 🧩 View Partition Layout
 
 ```bash
-.\mmls.exe "C:\Users\knsha\Downloads\4Dell Latitude CPi.E01"
+.\mmls.exe "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
+
 ```
 📊  
 ![WhatsApp Image 2025-10-26 at 22 57 55_4fd5fb79](https://github.com/user-attachments/assets/0a8fbb53-c1d6-437f-ab40-29e67b3907c4)
@@ -86,7 +87,8 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ### 📂 List Files and Directories
 
 ```bash
-.\fls.exe -o 63 "C:\Users\knsha\Downloads\4Dell Latitude CPi.E01" 
+.\fls.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01"
+
 ```
 🧾  
 ![WhatsApp Image 2025-10-26 at 22 58 13_4fca9801](https://github.com/user-attachments/assets/7f1886fc-8cf9-465e-adf6-8272817d4b70)
@@ -99,7 +101,7 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 ### 🗃️ Recover Deleted Files
 
 ```bash
-.\icat.exe -o 63 "C:\Users\knsha\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\knsha\Downloads\BOOTLOG_recovered.TXT"
+.\icat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\Sai Kumar\Downloads\BOOTLOG_recovered.TXT"
 ```
 🖼️  
 ![WhatsApp Image 2025-10-26 at 22 58 27_cffedd9f](https://github.com/user-attachments/assets/ea65f7a8-8836-42b6-92ab-12034d04ad10)
@@ -113,7 +115,7 @@ cd "C:\Program Files (x86)\sleuthkit-4.14.0-win32\bin"
 To uncover file history and access details, view the file’s metadata.
 
 ```bash
-.\istat.exe -o 63 "C:\Users\knsha\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\knsha\Downloads\BOOTLOG_recovered.TXT" 
+.\istat.exe -o 63 "C:\Users\Sai Kumar\Downloads\4Dell Latitude CPi.E01" 119 > "C:\Users\Sai Kumar\Downloads\BOOTLOG_recovered.TXT" 
 ```
 🧠  
 ![WhatsApp Image 2025-10-26 at 22 58 58_65998012](https://github.com/user-attachments/assets/48b51664-732c-44ae-98d5-1c27a22069e3)
